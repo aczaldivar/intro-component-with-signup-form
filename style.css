@@ -1,0 +1,111 @@
+.container{
+    width:1440px;
+    margin-bottom: 0px;
+    margin-top: 150px;
+    height: 800px;
+    padding-left: 160px;
+    background-image: url(./images/favicon-32x32.png);
+}
+
+.Learn{
+    
+    width:600px;
+    font-family: Poppins, sans-serif;
+    font-size:25px;
+    color:white;
+    
+}
+h2{
+    padding-top:100px;
+}
+h3{
+    width:600px;
+    font-family:Poppins, sans-serif;
+    color:white;
+    font-weight:300;
+    font-size:25px;
+}
+h4{
+    padding-left: 60px;
+    color:grey;
+}
+.Tryit{
+    background-color: #5e559e; 
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 157px;
+    padding-right:200px;
+    margin-bottom: 20px;
+    right:114px;
+    top:200px;
+    z-index:1;
+    color:white;
+}
+.column2{
+    width:500px;
+    padding:50px;
+    background: white;
+    border-radius:15px;
+}
+.labels{
+    display:flex;
+    flex-direction: column;
+    display:flex;
+    background:white;
+    padding-top: 22px;
+    border-radius:15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+input{
+    border-radius:10px;
+    padding:20px;
+    margin:10px; 
+    font-family: sans-serif;
+    font-weight:bold;
+    margin:10px;
+}
+.Free{
+    border-radius:15px;
+    padding:20px;
+    background-color: hsl(154, 59%, 51%);
+    color:white;
+    width:500px;
+    margin-left: 12px;
+    width: 561px;
+}
+main{
+    padding-left: 40px;
+    display:flex;
+    background-color:#e5817c; 
+    background-image: url("./images/bg-intro-desktop.png");
+    border-radius:15px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-right: 150px;
+}
+@media(max-width: 800px){
+main{
+        display:block;
+        background-color:#e5817c; 
+        background-image: url("./images/bg-intro-desktop.png");
+      
+}
+.container{
+    margin:0;
+    padding:0;
+   
+
+}
+.Tryit{
+padding:20px;
+text-align:center;
+
+}
+
+a{
+    color:rgb(241, 11, 11);
+}
+
+}
